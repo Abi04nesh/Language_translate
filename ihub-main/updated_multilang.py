@@ -17,7 +17,7 @@ import logging  # For debugging
 # Initialize logging
 logging.basicConfig(level=logging.INFO)
 
-gemini_key = "AIzaSyDJdhKPF0yMY3q6MMYpxAoKFdKhkgbX6U0"
+gemini_key = ""
 genai.configure(api_key=gemini_key)
 
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
